@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+body {
+	background-image: url(IMAGEN/fondo123.jpg);
+	text-align: center;
+}
+</style>
+</head>
+
+<body onLoad="MM_preloadImages('IMAGEN/BOTON 1.0.png','IMAGEN/BOTON 3.0.png','IMAGEN/BOTON 4.0.png','IMAGEN/BOTON 5.0.png','IMAGEN/BOTON 6.0.png')">
+<table width="1000" align="center">
+  <tbody>
+    <tr>
+      <td height="250" colspan="5"><img src="IMAGEN/LOGO.jpeg" width="1000" height="250" alt=""/></td>
+    </tr>
+    <tr>
+      <td width="200" height="50"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','IMAGEN/BOTON 1.0.png',1)"><img src="IMAGEN/BOTON 1.png" alt="" width="200" height="51" id="Image2"></a></td>
+      <td width="200"><a href="progreso.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','IMAGEN/BOTON 3.0.png',1)"><img src="IMAGEN/BOTON 3.png" alt="" width="200" height="50" id="Image3"></a></td>
+      <td width="200"><a href="avance.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','IMAGEN/BOTON 4.0.png',1)"><img src="IMAGEN/BOTON 4.png" alt="" width="200" height="50" id="Image4"></a></td>
+      <td width="200"><a href="receta.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','IMAGEN/BOTON 5.0.png',1)"><img src="IMAGEN/BOTON 5.png" alt="" width="200" height="50" id="Image5"></a></td>
+      <td width="200"><a href="ultimo.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','IMAGEN/BOTON 6.0.png',1)"><img src="IMAGEN/BOTON 6.png" alt="" width="200" height="50" id="Image6"></a></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td style="text-align: center; font-size: 24px;">&nbsp;</td>
+      <td style="text-align: center; font-size: 24px;">&nbsp;</td>
+      <td style="text-align: center; font-size: 24px;">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><marquee bgcolor=" #ED74BF">
+      </marquee></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
